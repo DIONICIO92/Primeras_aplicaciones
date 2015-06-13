@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".PrincipalActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/hola"
+        android:title="@string/hola"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/checkbox"
+        android:title="@string/checkbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/listview"
+        android:title="@string/listview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/textview"
+        android:title="@string/textview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

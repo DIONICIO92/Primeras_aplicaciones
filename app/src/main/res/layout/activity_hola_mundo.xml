@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.edgar.proyecto.primeras_aplicaciones.hola_mundo">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campo"
+        android:hint="nombre" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton"
+        android:onClick="onClick"
+        android:text="@string/enviar" />
+
+</LinearLayout>
